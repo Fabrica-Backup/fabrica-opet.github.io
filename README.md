@@ -1,7 +1,7 @@
 # fabrica-opet
 
     Website da Fabrica de Software Opet. 
-    https://fabrica-opet.github.io/Fabrica-Opet/
+    https://fabrica-opet.github.io
 
     Tecnologias Utilizadas para a construção do site.
         - HTML5
