@@ -19,7 +19,7 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Fabrica de Software Opet</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -33,21 +33,20 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">
-          <>Hello World!
-            < />
-        </h1>
+        <h1 class="header center teal-text text-lighten-2"></h1>
         <div class="row center">
-          <h5 class="header col s12 light">"A modern responsive front-end framework based on Material Design"</h5>
-        </div>
-        <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            <br><br>
+            <br><br>
+          <h5 id="typed2" class="header col s12 light-grey"></h5>
         </div>
         <br><br>
-
+        <div class="row center">
+         <!-- <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Let's Go?</a> -->
+        </div>
+        <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="img/background5.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/1-vXjx4Y7EgQBwALkaeZJ0Cg.jpeg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -98,9 +97,9 @@
               <div class="card-panel red">
                 <span class="white-text"><h5><b>Tecnologias Utilizadas</b></h5>
                     <ul>
-                      <li>Java Orientado a Objetos e Satanás</li>
+                      <li>Java Orientado a Objetos</li>
                       <li>Java Spring</li>
-                      <li>Python</li>
+                      <li>Python / Django / DjangoREST</li>
                     </ul>
                 </span>
               </div>
@@ -125,6 +124,7 @@
                       <li>Oracle</li>
                       <li>MYSQL</li>
                       <li>SQLite 3</li>
+                      <li>PostgreSQL</li>
                     </ul>
                 </span>
               </div>
@@ -228,6 +228,17 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script> 
+    var typed2 = new Typed('#typed2', {
+    strings: ['<h4>Quer aprender <strong>Front-end</strong>?</h4>', '<h4>Quer aprender <strong>Back-end</strong>?</h4>', 
+    '<h4>Quer aprender <strong>Banco de Dados</strong>?</h4>', '<h3><strong>Venha para a Fabrica de Software!</strong></h3>'],
+    typeSpeed: 100,
+    backSpeed: 0,
+    fadeOut: true,
+    loop: true
+  });
+  </script>
 </body>
 
 </html>
