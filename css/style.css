@@ -62,9 +62,9 @@ footer.page-footer {
 }
 
 a[href="#top"]{
-  padding: 30px;
+  padding: 10px;
   position:fixed;
-  top: 90%;
+  top: 86%;
   right:40px;
   display:none;
   font-size: 30px;
